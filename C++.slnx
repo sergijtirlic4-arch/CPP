@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="1_intro_to_C++/1_intro_to_C++.vcxproj" />
+  <Project Path="2_data_typse/2_data_typse.vcxproj" />
 </Solution>
