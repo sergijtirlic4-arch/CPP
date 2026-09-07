@@ -3,6 +3,12 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="1_intro_to_C++/1_intro_to_C++.vcxproj" />
-  <Project Path="2_data_typse/2_data_typse.vcxproj" />
+  <Project Path="1_homeworke/1_homeworke.vcxproj" Id="8ad6c683-c5d2-4f2d-9647-d4f57f6fd4b8" />
+  <Project Path="1_intro_to_C++/1_intro_to_C++.vcxproj" Id="c77c8f08-d42b-4285-870c-b316e37760fa" />
+  <Project Path="2_data_typse/2_data_typse.vcxproj" Id="8419a1e6-90f3-45ae-9906-b7b698cd96e4" />
+  <Project Path="2_homeworke/2_homeworke.vcxproj" Id="cbc9453e-a644-4f45-8b36-a4b51bf800c8" />
+  <Project Path="3_Operator/3_Operator.vcxproj" Id="82180eb7-37d1-473e-9239-23143750f102" />
+  <Project Path="4_enum_cycles/4_enum_cycles.vcxproj" Id="fb236e40-f57c-4cf8-8aad-a7ff62471667" />
+  <Project Path="4_homeworke/4_homeworke.vcxproj" Id="097491e7-f846-4aa0-b245-0d13080fbd19" />
+  <Project Path="5_include_cycles/5_include_cycles.vcxproj" Id="d3b09440-d3c3-49c0-be4d-b8efee68f03f" />
 </Solution>
