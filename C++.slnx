@@ -7,8 +7,13 @@
   <Project Path="1_intro_to_C++/1_intro_to_C++.vcxproj" Id="c77c8f08-d42b-4285-870c-b316e37760fa" />
   <Project Path="2_data_typse/2_data_typse.vcxproj" Id="8419a1e6-90f3-45ae-9906-b7b698cd96e4" />
   <Project Path="2_homeworke/2_homeworke.vcxproj" Id="cbc9453e-a644-4f45-8b36-a4b51bf800c8" />
+  <Project Path="3_homeworke/3_homeworke.vcxproj" Id="040d9d29-8d8d-4068-a2b3-52c45d2489bb" />
   <Project Path="3_Operator/3_Operator.vcxproj" Id="82180eb7-37d1-473e-9239-23143750f102" />
   <Project Path="4_enum_cycles/4_enum_cycles.vcxproj" Id="fb236e40-f57c-4cf8-8aad-a7ff62471667" />
   <Project Path="4_homeworke/4_homeworke.vcxproj" Id="097491e7-f846-4aa0-b245-0d13080fbd19" />
   <Project Path="5_include_cycles/5_include_cycles.vcxproj" Id="d3b09440-d3c3-49c0-be4d-b8efee68f03f" />
+  <Project Path="6_array/6_array.vcxproj" Id="b47a4c15-ed76-4771-8f49-271c4d54f0f3" />
+  <Project Path="6_homeworke/6_homeworke.vcxproj" Id="f15de922-7917-4f5f-9088-2c38a25e147b" />
+  <Project Path="7_two_demention_array/7_two_demention_array.vcxproj" Id="86b37716-ff5d-4b98-81ac-ca99e47b8156" />
+  <Project Path="8_function/8_function.vcxproj" Id="1f682ae2-f6f7-4809-baf6-8ade7cb598bf" />
 </Solution>
