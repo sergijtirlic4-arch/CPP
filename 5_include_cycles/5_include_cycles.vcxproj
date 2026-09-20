@@ -24,6 +24,7 @@
     <ProjectGuid>{d3b09440-d3c3-49c0-be4d-b8efee68f03f}</ProjectGuid>
     <RootNamespace>My5includecycles</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>05_include_cycles</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

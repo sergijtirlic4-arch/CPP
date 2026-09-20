@@ -3,21 +3,21 @@ using namespace std;
 
 int main()
 {
-	//int product = 1;
-	//const int size = 10;
-	//int array[size]{};
-	//for (int i = 0; i < size; i++)
-	//{
-	//	cout << "Enter number " << i << ": ";
-	//	cin >> array[i];
-	//}
-	//for (int j = 0; j < size; j++)
-	//{
-	//	cout << array[j] << " ";
-	//	product *= array[j];
-	//}
-	//cout << endl;
-	//cout << "Product of all numbers: " << product;
+	int product = 1;
+	const int size = 10;
+	int array[size]{};
+	for (int i = 0; i < size; i++)
+	{
+		cout << "Enter number " << i << ": ";
+		cin >> array[i];
+	}
+	for (int j = 0; j < size; j++)
+	{
+		cout << array[j] << " ";
+		product *= array[j];
+	}
+	cout << endl;
+	cout << "Product of all numbers: " << product;
 
 
 

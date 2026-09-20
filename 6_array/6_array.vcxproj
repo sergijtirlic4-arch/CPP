@@ -24,6 +24,7 @@
     <ProjectGuid>{b47a4c15-ed76-4771-8f49-271c4d54f0f3}</ProjectGuid>
     <RootNamespace>My6array</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>06_array</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cbc9453e-a644-4f45-8b36-a4b51bf800c8}</ProjectGuid>
-    <RootNamespace>My2homeworke</RootNamespace>
+    <ProjectGuid>{6c196608-bf45-4912-832d-717474010a01}</ProjectGuid>
+    <RootNamespace>My9templatefunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02_homeworke</ProjectName>
+    <ProjectName>09_template_function</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2_homeworke.cpp" />
+    <ClCompile Include="9_template_function.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

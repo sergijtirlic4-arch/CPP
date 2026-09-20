@@ -3,6 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="10_linear_search_and_sort/10_linear_search_and_sort.vcxproj" Id="3fbeef02-6f27-45fb-ae1b-3215297b55d1" />
   <Project Path="1_homeworke/1_homeworke.vcxproj" Id="8ad6c683-c5d2-4f2d-9647-d4f57f6fd4b8" />
   <Project Path="1_intro_to_C++/1_intro_to_C++.vcxproj" Id="c77c8f08-d42b-4285-870c-b316e37760fa" />
   <Project Path="2_data_typse/2_data_typse.vcxproj" Id="8419a1e6-90f3-45ae-9906-b7b698cd96e4" />
@@ -16,4 +17,5 @@
   <Project Path="6_homeworke/6_homeworke.vcxproj" Id="f15de922-7917-4f5f-9088-2c38a25e147b" />
   <Project Path="7_two_demention_array/7_two_demention_array.vcxproj" Id="86b37716-ff5d-4b98-81ac-ca99e47b8156" />
   <Project Path="8_function/8_function.vcxproj" Id="1f682ae2-f6f7-4809-baf6-8ade7cb598bf" />
+  <Project Path="9_template_function/9_template_function.vcxproj" Id="6c196608-bf45-4912-832d-717474010a01" />
 </Solution>
