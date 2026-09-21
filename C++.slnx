@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="10_linear_search_and_sort/10_linear_search_and_sort.vcxproj" Id="3fbeef02-6f27-45fb-ae1b-3215297b55d1" />
+  <Project Path="11_Recursion_QuickSort/11_Recursion_QuickSort.vcxproj" Id="87d9d3ce-11e1-416b-9b32-478f091caa55" />
   <Project Path="1_homeworke/1_homeworke.vcxproj" Id="8ad6c683-c5d2-4f2d-9647-d4f57f6fd4b8" />
   <Project Path="1_intro_to_C++/1_intro_to_C++.vcxproj" Id="c77c8f08-d42b-4285-870c-b316e37760fa" />
   <Project Path="2_data_typse/2_data_typse.vcxproj" Id="8419a1e6-90f3-45ae-9906-b7b698cd96e4" />
