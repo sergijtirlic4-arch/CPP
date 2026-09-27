@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int* CreateArray(int size)
+int* InitArray(int size)
 {
 	int* arr = new int[size];
 	for (int i = 0; i < size; i++)
@@ -108,7 +108,7 @@ int main()
 	cout << "Enter size: ";
 	cin >> size;
 
-	int* arr = CreateArray(size);
+	int* arr = InitArray(size);
 
 	int choice;
 	do
