@@ -5,8 +5,10 @@
   </Configurations>
   <Project Path="08_homeworke/08_homeworke.vcxproj" Id="6953d012-b324-4115-9416-a71117bf7865" />
   <Project Path="09_homeworke/09_homeworke.vcxproj" Id="23014d5d-9194-4da9-bae8-7ceb48b5ff92" />
+  <Project Path="10_homeworke/10_homeworke.vcxproj" Id="ad63c8a3-f6fc-4468-9abf-4bb541f5272b" />
   <Project Path="10_linear_search_and_sort/10_linear_search_and_sort.vcxproj" Id="3fbeef02-6f27-45fb-ae1b-3215297b55d1" />
   <Project Path="11_Recursion_QuickSort/11_Recursion_QuickSort.vcxproj" Id="87d9d3ce-11e1-416b-9b32-478f091caa55" />
+  <Project Path="12_homeworke/12_homeworke.vcxproj" Id="ac929740-271a-4ec1-b717-537cc3e7bdda" />
   <Project Path="12_pointers/12_pointers.vcxproj" Id="4e19ebb7-44f0-4886-8818-9962389e03ad" />
   <Project Path="13_links_and_dynamic_memory/13_links_and_dynamic_memory.vcxproj" Id="d97a7b91-d5de-43ef-8cbf-4b0f40b62922" />
   <Project Path="1_homeworke/1_homeworke.vcxproj" Id="8ad6c683-c5d2-4f2d-9647-d4f57f6fd4b8" />
