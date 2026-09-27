@@ -55,7 +55,7 @@ int main()
 	srand(time(0));
 
 	const int size = 10;
-	int arr[size];
+	int arr[size]{};
 
 	InitArray(arr, size);
 	ShowArray(arr, size);
