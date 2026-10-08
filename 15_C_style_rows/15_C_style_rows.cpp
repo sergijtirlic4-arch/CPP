@@ -79,4 +79,67 @@ int main()
 	cin.getline(user_string, size);
 	int result = FindLen(user_string);
 	cout << "Length of your string: " << result << endl;
+
+
+	{
+		const int size = 100;
+		char user_string[size]{};
+		char user_char;
+		char new_string[size]{};
+		int j = 0;
+
+		cout << "Enter your string:\n";
+		cin.getline(user_string, size);
+
+		cout << "Enter char to delete:\n";
+		cin >> user_char;
+
+		for (int i = 0; i <= size; i++)
+		{
+			if (user_string[i] == user_char){}
+			else {
+				new_string[j] = user_string[i];
+				j++;
+			}
+		}
+
+		cout << new_string << "\n";
+	}
+
+
+	cin.ignore();
+	char text[1000];
+	cout << "Enter a string: ";
+	cin.getline(text, sizeof(text));
+
+	int count_whitespaces = 0;
+	int count_vowels = 0;
+	int count_consonants = 0;
+	int count_punctuation = 0;
+
+	for (int i = 0; text[i] != '\0'; i++) {
+		char c = text[i];
+
+		if (isspace(c)) {
+			count_whitespaces++;
+		}
+		else if (isalpha(c)) {
+			char lower_c = tolower(c);
+			if (lower_c == 'a' || lower_c == 'e' || lower_c == 'i' || lower_c == 'o' || lower_c == 'u') {
+				count_vowels++;
+			}
+			else {
+				count_consonants++;
+			}
+		}
+		else if (ispunct(c)) {
+			count_punctuation++;
+		}
+	}
+
+	cout << "\n--- String Statistics ---\n";
+	cout << "Whitespaces: " << count_whitespaces << "\n";
+	cout << "Vowels:      " << count_vowels << "\n";
+	cout << "Consonants:  " << count_consonants << "\n";
+	cout << "Punctuation: " << count_punctuation << "\n";
 }

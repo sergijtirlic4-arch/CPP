@@ -110,6 +110,62 @@ int** AddColumnStart(int** arr, int& rows, int& cols)
 
 }
 
+int** AddColumnByPosition(int** arr, int rows, int& cols, int pos)
+{
+	int** temp = new int* [rows];
+
+	for (int i = 0; i < rows; i++)
+	{
+		temp[i] = new int[cols + 1];
+
+		for (int j = 0; j < pos; j++)
+		{
+			temp[i][j] = arr[i][j];
+		}
+
+		temp[i][pos] = 0;
+
+		for (int j = pos; j < cols; j++)
+		{
+			temp[i][j + 1] = arr[i][j];
+		}
+
+		delete[] arr[i];
+	}
+
+	delete[] arr;
+	cols++;
+
+	return temp;
+}
+
+int** DeleteColumnByPosition(int** arr, int rows, int& cols, int pos)
+{
+	int** temp = new int* [rows];
+
+	for (int i = 0; i < rows; i++)
+	{
+		temp[i] = new int[cols - 1];
+
+		for (int j = 0; j < pos; j++)
+		{
+			temp[i][j] = arr[i][j];
+		}
+
+		for (int j = pos + 1; j < cols; j++)
+		{
+			temp[i][j - 1] = arr[i][j];
+		}
+
+		delete[] arr[i];
+	}
+
+	delete[] arr;
+	cols--;
+
+	return temp;
+}
+
 int main()
 {
 	srand(time(0));
@@ -137,6 +193,13 @@ int main()
 
 	arr = AddColumnStart(arr, rows, cols);
 	ShowArray(arr, rows, cols);
+
+	arr = AddColumnByPosition(arr, rows, cols, 2);
+	ShowArray(arr, rows, cols);
+
+	arr = DeleteColumnByPosition(arr, rows, cols, 1);
+	ShowArray(arr, rows, cols);
+
 
 	for (int i = 0; i < rows; i++)
 	{
