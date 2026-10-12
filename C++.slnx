@@ -14,8 +14,11 @@
   <Project Path="13_links_and_dynamic_memory/13_links_and_dynamic_memory.vcxproj" Id="d97a7b91-d5de-43ef-8cbf-4b0f40b62922" />
   <Project Path="14_dynamic_two_demention_array/14_dynamic_two_demention_array.vcxproj" Id="51276bc0-c3a0-4ea1-9221-5b4bf69a0015" />
   <Project Path="15_C_style_rows/15_C_style_rows.vcxproj" Id="4cacebca-9dbd-4112-bf2e-5ca6de6c82d9" />
+  <Project Path="16_homeworke/16_homeworke.vcxproj" Id="15095902-ce25-4ca1-92e4-cf2e7a36992f" />
   <Project Path="16_struct/16_struct.vcxproj" Id="7974b55a-2509-4995-b671-770177491e48" />
+  <Project Path="17_homeworke/17_homeworke.vcxproj" Id="ae03f1e7-a30e-482b-8104-3829c1e20b94" />
   <Project Path="17_struct_book_shop/17_struct_book_shop.vcxproj" Id="dc4f0e4b-622f-49cd-9402-5d22f47f28ac" />
+  <Project Path="18_homeworke/18_homeworke.vcxproj" Id="1df7e81c-9eed-453b-8a29-93b28102a5c9" />
   <Project Path="18_struct_save_to_file/18_struct_save_to_file.vcxproj" Id="f8c7a7e2-62f2-45b1-8119-053409898b8a" />
   <Project Path="1_homeworke/1_homeworke.vcxproj" Id="8ad6c683-c5d2-4f2d-9647-d4f57f6fd4b8" />
   <Project Path="1_intro_to_C++/1_intro_to_C++.vcxproj" Id="c77c8f08-d42b-4285-870c-b316e37760fa" />
